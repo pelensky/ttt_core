@@ -32,4 +32,10 @@ RSpec.describe Game do
     end
   end
 
+  context "Game over" do
+    it "is not true while game is in progress" do
+      expect(game.game_over?).to be false
+    end
+  end
+
 end
