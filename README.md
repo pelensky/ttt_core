@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/pelensky/ttt_core.svg?branch=master)](https://travis-ci.org/pelensky/ttt_core)
 [![Coverage Status](https://coveralls.io/repos/github/pelensky/ttt_core/badge.svg?branch=master)](https://coveralls.io/github/pelensky/ttt_core?branch=master)
-#$ Tic Tac Toe Core Gem
+# Tic Tac Toe Core Gem
 
 This is a gem for the core logic of a Tic Tac Toe game built in Ruby. It will require a front end, and a human player that interacts with the front end to be played, ie. [ttt_cli](www.github.com/pelensky/ttt_cli), and [ttt_web]((www.github.com/pelensky/ttt_web)).
 
