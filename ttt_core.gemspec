@@ -9,18 +9,10 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Dan Pelensky"]
   spec.email         = ["dan@pelensky.com"]
 
-  spec.summary       = "The core classes of a Tic Tac Toe game"
-  spec.description   = "You can build a Tic Tac Toe game off of these classes"
+  spec.summary       = "Core Tic Tac Toe files to be used with a front end"
+  spec.description   = "This is the core logic of a Tic Tac Toe game. Create a front end, and a human player (if required) and you are good to go."
+  spec.homepage      = "https://github.com/pelensky/ttt_core"
   spec.license       = "MIT"
-
-  # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
-  # to allow pushing to a single host or delete this section to allow pushing to any host.
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
-  else
-    raise "RubyGems 2.0 or newer is required to protect against " \
-      "public gem pushes."
-  end
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})

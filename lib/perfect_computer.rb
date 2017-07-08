@@ -1,4 +1,4 @@
-require './lib/simple_computer'
+require 'simple_computer'
 
 class PerfectComputer
 
