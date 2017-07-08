@@ -1,40 +1,17 @@
-# Tic Tac Toe Core Gem
+[![Build Status](https://travis-ci.org/pelensky/ttt_core.svg?branch=master)](https://travis-ci.org/pelensky/ttt_core)
+[![Coverage Status](https://coveralls.io/repos/github/pelensky/ttt_core/badge.svg?branch=master)](https://coveralls.io/github/pelensky/ttt_core?branch=master)
+#$ Tic Tac Toe Core Gem
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/ttt_core`. To experiment with that code, run `bin/console` for an interactive prompt.
+This is a gem for the core logic of a Tic Tac Toe game built in Ruby. It will require a front end, and a human player that interacts with the front end to be played, ie. [ttt_cli](www.github.com/pelensky/ttt_cli), and [ttt_web]((www.github.com/pelensky/ttt_web)).
 
-TODO: Delete this and the text above, and describe your gem
+#### The Rules
 
-## Installation
+The rules of tic-tac-toe are as follows:
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'ttt_core'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install ttt_core
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/ttt_core. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-
-## License
-
-The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+* There are two players in the game (X and O)
+* Players take turns until the game is over
+* A player can claim a field if it is not already taken
+* A turn ends when a player claims a field
+* A player wins if they claim all the fields in a row, column or diagonal
+* A game is over if a player wins
+* A game is over when all fields are taken
